@@ -10,7 +10,7 @@ To write a python program for Implementation of sliding Window Protocol
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
-## PROGRAM
+## PROGRAM:
 ## Client
 ```
 import socket
@@ -41,7 +41,7 @@ while True:
     print(s.recv(1024).decode())
     s.send("acknowledgement received from the server".encode())
 ```
-## OUTPUT
+## OUTPUT:
 ## Client:
 ![image](https://github.com/user-attachments/assets/19f0b47d-1b27-4be9-a99f-b40a13dc7866)
 
